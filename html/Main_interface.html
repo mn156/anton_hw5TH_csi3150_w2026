@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Antons Used Car's Market</title>
+        <link rel="stylesheet" href="/css/Main.css"/>
+        <script src="/js/usedCars-TH-1.js"></script>
+    </head>
+    <body>
+        <header><h1>Antons Used Car Market</h1></header>
+        <div class="mainlayout">
+                <div class="filters">
+                    <div class="carYearContainer">
+                        <label for="carYear">Select a Car Year</label>,
+                        <input type="range" id="carYear" name="carYear" min="2000" max="2026" value="2026">
+                        <output id="carYearOutput" for="carYear">2026</output>
+                    </div>
+                    <div class="CarMakeContainer">
+                        <label for="carMake"> Select the Make</label>
+                        <select id="carMake" name="carMake">
+                            <option value="">Please choose an option</option>
+                        </select>
+                    </div>
+                    <div class="CarMileageContainer">
+                        <label for="carMileage">Put the Max or Min Car Mileage</label>
+                        <input type="text" id="MaxMileage" name="MaxMileage" placeholder="MAX">
+                        <input type="text" id="MinMileage" name="MinMileage" placeholder="MIN">
+                    </div>
+                    <div class="carPriceContainer">
+                        <label for="carPrice">Select the desired car price</label>
+                        <input type="range" id="carPrice" name="carPrice" min="0" max="100000" value="100000">
+                        <output id="carPriceOutput" for-="carPrice">100000</output>
+                    </div>
+                    <div class="colorContainer">
+                        <label for="carColor"> Select the Car Color that you desire</label>
+                        <select id="carColor" name="carColor">
+                            <option value="">Please choose an option</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="productGrid">
+                </div>
+                <script src="/js/functions.js"></script>
+        </div>
+    </body>
+
+
+
+
+
+
+
+
+
+
+</html>

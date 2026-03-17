@@ -1,0 +1,44 @@
+.mainlayout{
+    display: flex; 
+    align-items: flex-start;
+    gap: 30px;
+    padding-right:20px;
+}
+header{
+    width: 100%;
+    border-bottom: 3px solid #333; 
+    padding: 20px;
+    text-align: center;
+    background-color:#F0EAD6;
+}
+body {
+    background-color: lightblue;
+    margin: 0;
+}
+
+.filters{
+    width: 300px; 
+    flex-shrink: 0; 
+    border: 2px solid #D1D9E0; 
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #F0EAD6;
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.productCard {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #D1D9E0;
+}
